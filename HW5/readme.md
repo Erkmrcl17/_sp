@@ -2,16 +2,16 @@
 
 產生組合語言.s檔
 ```
-gcc -S 0326.c
+g++ -S main.cpp
 ```
-執行power.c
+執行power.cpp
 ```
- gcc power.c
+g++ mian.cpp
  ./a.exe
 ```
 產生目的檔.o檔
 ```
-gcc -c power.c
+g++ -c power.cpp
 ```
 將該目的檔反組譯
 ```
